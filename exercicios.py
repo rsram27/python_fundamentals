@@ -30,9 +30,24 @@
 #QUINTO EXERCICIO
 #FACA UM PROGRAMA QUE RECEBA 'F' OU 'M' E MOSTRE FEMININO OU MASCULINO
 
-varSexo = input('Informe F ou M : ')
+# varSexo = str(input('Informe F ou M : '))
+# varSexo = varSexo.capitalize()
 
-if varSexo == 'F':
-    print('O sexo é feminimo')
+# if varSexo == 'F':
+#     print('O sexo é feminimo')
+# elif varSexo == 'M':
+#     print('Masculino')
+# else:
+#     print('Valor inválido')
+
+#SEXTO EXERCICIO
+#FACA UM PROGRAMA QUE PEÇA UM VALOR E MOSTRE NA TELA SE O VALOR É POSITIVO OU NEGATIVO
+
+varNumero = float(input('Forneça um numero : '))
+
+if varNumero > 0:
+    print('Numero é positivo')
+elif varNumero == 0:
+    print('Numero é Zero')
 else:
-    print('O sexo é masculino')
+    print('Numero é negativo')
