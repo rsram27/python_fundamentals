@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 
-nome = "Ronaldo"
+v1 = input('Digite seu nome e sobrenome: ')
 
-print(nome)
+print(v1)
