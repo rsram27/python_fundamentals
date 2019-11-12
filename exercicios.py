@@ -13,8 +13,26 @@
 
 #TERCEIRO EXERCICIO
 
-primeironumero = 5
-segundonumero = 23
-terceironumero = 25
+# primeironumero = 5
+# segundonumero = 23
+# terceironumero = 25
 
-print(primeironumero+segundonumero+terceironumero)
+# print(primeironumero+segundonumero+terceironumero)
+
+#QUARTO EXERCICIO
+
+# linguagem = 'python'
+# if linguagem == 'python':
+#     print('A linguagem é Pyton')
+# else:
+#     print('A linguagem não é Pyton')
+
+#QUINTO EXERCICIO
+#FACA UM PROGRAMA QUE RECEBA 'F' OU 'M' E MOSTRE FEMININO OU MASCULINO
+
+varSexo = input('Informe F ou M : ')
+
+if varSexo == 'F':
+    print('O sexo é feminimo')
+else:
+    print('O sexo é masculino')
