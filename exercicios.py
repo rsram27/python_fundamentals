@@ -43,11 +43,20 @@
 #SEXTO EXERCICIO
 #FACA UM PROGRAMA QUE PEÇA UM VALOR E MOSTRE NA TELA SE O VALOR É POSITIVO OU NEGATIVO
 
-varNumero = float(input('Forneça um numero : '))
 
-if varNumero > 0:
-    print('Numero é positivo')
-elif varNumero == 0:
-    print('Numero é Zero')
-else:
-    print('Numero é negativo')
+
+# try:
+#     varNumero = float(input('Forneça um numero : '))
+#     if varNumero > 0:
+#         print(str(varNumero) + ' é um Numero é positivo')
+#     elif varNumero == 0:
+#         print(str(varNumero) + ' é Zero')
+#     else:
+#         print(str(varNumero) + ' é um numero é negativo')
+# except ValueError as e:
+#     print('Deu erro ...')
+
+#TESTAR NO EXCEPT O EXCEPTION    
+
+#SETIMO EXERCICIO
+#
