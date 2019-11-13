@@ -59,4 +59,45 @@
 #TESTAR NO EXCEPT O EXCEPTION    
 
 #SETIMO EXERCICIO
-#
+#listas 
+
+# lista = [1,2,'abacaxi','laranja','moto',52,1,2,2,2,3,3,4,5,6,5,5,1]
+# lista2 = [[1,2,3],['carro','moto','bike'],['casa','apartamento']]
+
+
+# # lista.append('Carro')
+# # lista.pop(3)
+# # lista.insert(3,'laranja')
+# # lista.reverse()
+# # lista.reverse()
+# #lista.pop(1) #remove com o pop usando o nome do ite3m da lista
+# #lista.sort
+# #print(lista.count('moto'))
+
+# lista2[0][1]=50
+# print(lista2)
+
+#oitavo exercicio
+lista = ['Corinthians', [1, 2, 3, 4, 5] ,'Palmeiras', 'São Paulo', [10, 11, 12, 13, 14],'Flamengo', 'Vasco']
+
+# dada a lista ['Corinthians', [1, 2, 3, 4, 5] ,'Palmeiras', 'São Paulo', [10, 11, 12, 13, 14],'Flamengo', 'Vasco']
+# print 3, 13, vasco
+print(lista[1][2], lista[4][3], lista[6])
+# print 5, São Paulo, 14
+print(lista[1][-1], lista[3], lista[4][4])
+# mudem o valor do 4 = 30
+lista[1][3] = 30
+# mudem o valor do 10 = 100
+lista[4][0] = 100
+# mudem o valor do 14 = 150
+lista[4][-1] = 150
+# mudem o valor vasco = Bragantino   
+lista[-1] = 'Bragantino'
+
+print(lista)
+
+
+
+
+
+
