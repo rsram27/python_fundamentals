@@ -94,12 +94,25 @@
 # # mudem o valor vasco = Bragantino   
 # lista[-1] = 'Bragantino'
 
-# print(lista)
+# # print(lista)
 
-#tupla = (1,2,4,5,6,1,1)
-tupla = ('Python','java','PHP')
+# #tupla = (1,2,4,5,6,1,1)
+# tupla = ('Python','java','PHP')
 
-#print(tupla[1].title())
+# #print(tupla[1].title())
 
-tupla[0].upper
+# tupla[0].upper.
 
+#dicionarios
+#Decima primeira
+
+dicionario = {'nome':'Ronaldo','Sobrenome':'Ramires','Idade':46}
+dicionario['Nome']='João'
+dicionario.pop(1)
+
+print(dicionario)
+print(dicionario['nome'])
+print(dicionario['Sobrenome'])
+print(dicionario['Idade'])
+print(dicionario.keys())
+print(dicionario.values())
