@@ -77,27 +77,29 @@
 # lista2[0][1]=50
 # print(lista2)
 
-#oitavo exercicio
-lista = ['Corinthians', [1, 2, 3, 4, 5] ,'Palmeiras', 'São Paulo', [10, 11, 12, 13, 14],'Flamengo', 'Vasco']
+# #oitavo exercicio
+# lista = ['Corinthians', [1, 2, 3, 4, 5] ,'Palmeiras', 'São Paulo', [10, 11, 12, 13, 14],'Flamengo', 'Vasco']
 
-# dada a lista ['Corinthians', [1, 2, 3, 4, 5] ,'Palmeiras', 'São Paulo', [10, 11, 12, 13, 14],'Flamengo', 'Vasco']
-# print 3, 13, vasco
-print(lista[1][2], lista[4][3], lista[6])
-# print 5, São Paulo, 14
-print(lista[1][-1], lista[3], lista[4][4])
-# mudem o valor do 4 = 30
-lista[1][3] = 30
-# mudem o valor do 10 = 100
-lista[4][0] = 100
-# mudem o valor do 14 = 150
-lista[4][-1] = 150
-# mudem o valor vasco = Bragantino   
-lista[-1] = 'Bragantino'
+# # dada a lista ['Corinthians', [1, 2, 3, 4, 5] ,'Palmeiras', 'São Paulo', [10, 11, 12, 13, 14],'Flamengo', 'Vasco']
+# # print 3, 13, vasco
+# print(lista[1][2], lista[4][3], lista[6])
+# # print 5, São Paulo, 14
+# print(lista[1][-1], lista[3], lista[4][4])
+# # mudem o valor do 4 = 30
+# lista[1][3] = 30
+# # mudem o valor do 10 = 100
+# lista[4][0] = 100
+# # mudem o valor do 14 = 150
+# lista[4][-1] = 150
+# # mudem o valor vasco = Bragantino   
+# lista[-1] = 'Bragantino'
 
-print(lista)
+# print(lista)
 
+#tupla = (1,2,4,5,6,1,1)
+tupla = ('Python','java','PHP')
 
+#print(tupla[1].title())
 
-
-
+tupla[0].upper
 
