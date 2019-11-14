@@ -106,14 +106,22 @@
 #dicionarios
 #Decima primeira
 
-dicionario = {'nome':'Ronaldo','Sobrenome':'Ramires','Idade':46}
-dicionario['Nome']='João'
-dicionario.pop(1)
+# dicionario = {'nome':'Ronaldo','Sobrenome':'Ramires','Idade':46}
+# dicionario['Nome']='João'
+# print(dicionario)
+# print(dicionario['nome'])
+# print(dicionario['Sobrenome'])
+# print(dicionario['Idade'])
+# print(dicionario.keys())
+# print(dicionario.values())
 
-print(dicionario)
-print(dicionario['nome'])
-print(dicionario['Sobrenome'])
-print(dicionario['Idade'])
-print(dicionario.keys())
-print(dicionario.values())
 
+# conversao de tipos
+
+# variavel = 15
+
+var = 15
+
+# peça que o usuaruio digite um numero e multiplique por var
+
+print(int(input('Digite um numero qualquer : ')) * var)

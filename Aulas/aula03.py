@@ -34,33 +34,54 @@
 # print(endereco2)
 # print(endereco2.keys()) #MOSTRA AS CHAVES DO DICIONARIO (LOGRADOURO, NUMERO, ETC, ETC)
 
-dados = {
-    'cidades':{
-        'saopaulo':{
-            'nome':'São Paulo',
-            'municipios':645,
-            'populacao':12.18
-        },
-        'riodejaneiro':{
-            'nome':'Rio de Janeiro',
-            'municipios':92,
-            'populacao':6.32
-        },
-        'minasgerais':{
-            'nome':'Minas Gerais',
-            'municipios':945,
-            'populacao':9.25
-        }
-    }
-}
+# dados = {
+#     'cidades':{
+#         'saopaulo':{
+#             'nome':'São Paulo',
+#             'municipios':645,
+#             'populacao':12.18
+#         },
+#         'riodejaneiro':{
+#             'nome':'Rio de Janeiro',
+#             'municipios':92,
+#             'populacao':6.32
+#         },
+#         'minasgerais':{
+#             'nome':'Minas Gerais',
+#             'municipios':945,
+#             'populacao':9.25
+#         }
+#     }
+# }
 
-# print a quantidade de municipios de minas gerais
-print(dados['cidades']['minasgerais']['municipios'])
-# print a quantidade municipios do rio
-print(dados['cidades']['riodejaneiro']['municipios'])
-# print a populacao de minas
-print(dados['cidades']['minasgerais']['populacao'] * 1000000)
-# print a população de sao paulo
-print(dados['cidades']['saopaulo']['populacao'] * 1000000)
-# print o nome de sao paulo
-print(dados['cidades']['saopaulo']['nome'])
+# # print a quantidade de municipios de minas gerais
+# print(dados['cidades']['minasgerais']['municipios'])
+# # print a quantidade municipios do rio
+# print(dados['cidades']['riodejaneiro']['municipios'])
+# # print a populacao de minas
+# print(dados['cidades']['minasgerais']['populacao'] * 1000000)
+# # print a população de sao paulo
+# print(dados['cidades']['saopaulo']['populacao'] * 1000000)
+# # print o nome de sao paulo
+# print(dados['cidades']['saopaulo']['nome'])
+
+# concatenar e inserir dados
+
+# municipios_br = '5.570'
+# estados_br = '26'
+
+# brasil = 'O Brasil é uma republica federativa formada pela uniao de {} estados federados,{} municipio e do distrito federal.'.format(estados_br,municipios_br)
+# brasil2 = f'O Brasil é uma republica federativa formada pela uniao de {estados_br} estados federados,{municipios_br} municipio e do distrito federal.'
+# print(brasil)
+# print(brasil2)
+
+# teste = 'teste'
+# teste2 = 'teste2'
+# pais = 'Brasil'
+
+# print(teste+ ' ' + teste2)
+# print(teste,teste2)
+# print(pais * 3)
+
+num = 1
+print(hex(num))
