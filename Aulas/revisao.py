@@ -38,7 +38,8 @@ endereco = 'Rua Vergueiro 1057'
 
 # tuplas
 
-# tupla = (1,2,3,4) # imutavel
-tupla = 1,2,3 # mutavel
-print(tupla.count(1)) # conta itens dentro da tupla
-print(tupla.index(1)) # retorna o iten da tupla
+# # tupla = (1,2,3,4) # imutavel
+# tupla = 1,2,3 # mutavel
+# print(tupla.count(1)) # conta itens dentro da tupla
+# print(tupla.index(1)) # retorna o iten da tupla
+
