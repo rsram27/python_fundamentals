@@ -126,7 +126,21 @@ var = 15
 
 # print(int(input('Digite um numero qualquer : ')) * var)
 
-# faca uma lista com nome de usuarios
+# faca uma lista com 10 nomes de usuarios
 # peca para o usuario digitar o nome de usuario
+# caso nao exista esse usuario na lista
+# de um nameError volte para a parte 2
 
+lista_usuarios = ['Joao','Maria','Joaquim','Pedro','Luana','Zeca','Juca','Luiz','Roberto','Manoeli']
+
+# while True:
+#     try:
+#         nome_usuario = input('digite o nome de usuario : ')
+#         if nome_usuario.lower() not in lista_usuarios:
+#             raise NameError('Esse usuarioo nao existe !!! ')
+#         else:
+#             print(f'Bem vindo(a) {nome_usuario}')
+#             break
+#     except NameError as e:
+#         print(e)
 
