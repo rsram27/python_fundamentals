@@ -77,18 +77,73 @@
 
 # A mensagem "aprovada com distincao" se a media for igual a dez
 
-nome_aluno = input('Digite o nome do aluno : ')
+# nome_aluno = input('Digite o nome do aluno : ')
 
-nota1 = float(input('Digite a primeira nota : '))
-nota2 = float(input('Digite a segunda nota : '))
+# nota1 = float(input('Digite a primeira nota : '))
+# nota2 = float(input('Digite a segunda nota : '))
 
-media_semestre = (nota1 + nota2) / 2
+# media_semestre = (nota1 + nota2) / 2
 
-print(f'A nota do aluno {nome_aluno} é {media_semestre}')
+# print(f'A nota do aluno {nome_aluno} é {media_semestre}')
 
-if media_semestre == 10.0:
-    print(f'Aluno {nome_aluno} foi aprovado com distinção')
-elif media_semestre >= 7.0:
-    print(f'Aluno {nome_aluno} foi aprovado')
-else:
-    print(f'Aluno {nome_aluno} foi reprovado')
+# if media_semestre == 10.0:
+#     print(f'Aluno {nome_aluno} foi aprovado com distinção')
+# elif media_semestre >= 7.0:
+#     print(f'Aluno {nome_aluno} foi aprovado')
+# else:
+#     print(f'Aluno {nome_aluno} foi reprovado')
+
+# erros e exceçoes
+
+# try:
+#     if 'mariana' == nome:
+#         print('nome correto')
+#     else:
+#         print('nome errado')
+# except Exception as e:
+#     print('Variavel nao atribuida',e)
+# finally:
+#     nome = 'Marina'
+#     print(nome)
+
+# try:
+#     x = int(input('digite o prineiro numero : '))
+#     y = int(input('digite o segundo numero : '))
+#     print(x+y)
+# except ValueError as v:
+#     print(f'o erro é {v}')
+
+
+# while True:
+#     try:
+#         idade = int(input('digite sua idade : '))
+#         if idade < 16:
+#             print('Voce nao pode comprar bebida alcoolica e nem \
+#                 tirar titulo de eleitor')
+#             break
+#         else:
+#             if idade >= 16 and idade < 18:
+#                 print('pode ter titulo de eleitor')
+#                 break
+#             else:a
+#                 print('voce pode comprar bebida e ter \
+#                     titulo de eleitor')
+#                 break
+#             break
+    
+#     except Exception as e:
+#         print('isso nao é um numero ', e)
+#         continue
+
+while True:
+    try:
+        login = input('Digite o login : ')
+
+        if login.lower() == 'bryan':
+            raise NameError('Bryan esta banido')
+        else:
+            print(f'Bem vindo {login} ao sistema')
+            break
+    except NameError as e:
+        print(e)
+        continue

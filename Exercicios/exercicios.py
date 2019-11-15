@@ -124,4 +124,9 @@ var = 15
 
 # peça que o usuaruio digite um numero e multiplique por var
 
-print(int(input('Digite um numero qualquer : ')) * var)
+# print(int(input('Digite um numero qualquer : ')) * var)
+
+# faca uma lista com nome de usuarios
+# peca para o usuario digitar o nome de usuario
+
+
