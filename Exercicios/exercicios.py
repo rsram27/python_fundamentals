@@ -143,4 +143,3 @@ lista_usuarios = ['Joao','Maria','Joaquim','Pedro','Luana','Zeca','Juca','Luiz',
 #             break
 #     except NameError as e:
 #         print(e)
-
