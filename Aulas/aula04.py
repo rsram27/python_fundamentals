@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-#while
+# while
 
 # x = 0
 # y = 9
@@ -67,10 +67,10 @@
 #     continue
 
 # faca um programa a leitura de duas notas parciais
-# de um aluno. O programa deve calucluar a media alcancada 
+# de um aluno. O programa deve calucluar a media alcancada
 # por aluno e apresentar
 
-#7 
+# 7
 # A mensagem "aprovadop" se a media alcancançada for maior ou igual a sete:
 
 # A mensagem "reprovada" se a media for menor do que sete
@@ -130,20 +130,62 @@
 #                     titulo de eleitor')
 #                 break
 #             break
-    
+
 #     except Exception as e:
 #         print('isso nao é um numero ', e)
 #         continue
 
-while True:
-    try:
-        login = input('Digite o login : ')
+# while True:
+#     try:
+#         login = input('Digite o login : ')
 
-        if login.lower() == 'bryan':
-            raise NameError('Bryan esta banido')
-        else:
-            print(f'Bem vindo {login} ao sistema')
-            break
-    except NameError as e:
-        print(e)
-        continue
+#         if login.lower() == 'bryan':
+#             raise NameError('Bryan esta banido')
+#         else:
+#             print(f'Bem vindo {login} ao sistema')
+#             break
+#     except NameError as e:
+#         print(e)
+#         continue
+
+# revisao tratamento de erros
+
+# while True:
+#     try:
+#         x = int(input('Digite o primeiro numenro : '))
+#         y = int(input('Digite o segundo numero : '))
+#         print(f'O valor calculado é : {x * y}')
+#         break
+#     except Exception as e:
+#         print('Digite apenas numeros ', e)
+#         continue
+
+# usuarios : ['Ana','Caio','Joaquina']
+# while True:
+#     try:
+#         user = input('Digite o nome de usuario: ')
+#         if user == 'Ana':
+#             raise NameError('Usuario Bloqueado!!')
+#         else:
+#             print(f' Bem Vindo ! ')
+#             break
+#     except NameError as n:
+#         print(n)
+#         continue
+
+# manipulando arquivos
+
+# arq1 = open('../Arquivos/sherlock.txt','r')
+
+# # print(arq1.read()) le o arquivo
+# # print(f'O arquivo tem : {arq1.tell()}') tell mostra a quantidade de caracteres do arquivo, usar o read antes
+# # print(arq1.read(100)) Le até a posicao 100
+
+# arq1.close()
+
+# with open('arquivo01.txt','a') as f:
+#     f.write(' Abrindo arquivos em python do Ramires \n')
+
+arq1 = open('arquivo01.txt','r')
+print(arq1.read())
+arq1.close
