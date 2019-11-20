@@ -131,7 +131,7 @@ var = 15
 # caso nao exista esse usuario na lista
 # de um nameError volte para a parte 2
 
-lista_usuarios = ['Joao','Maria','Joaquim','Pedro','Luana','Zeca','Juca','Luiz','Roberto','Manoeli']
+# lista_usuarios = ['Joao','Maria','Joaquim','Pedro','Luana','Zeca','Juca','Luiz','Roberto','Manoeli']
 
 # while True:
 #     try:
@@ -143,3 +143,37 @@ lista_usuarios = ['Joao','Maria','Joaquim','Pedro','Luana','Zeca','Juca','Luiz',
 #             break
 #     except NameError as e:
 #         print(e)
+
+
+# 19-11-19
+# crie uma função que peça 2 numeros e retorne o maior
+# se o valor for igual retorna valores iguais
+# guarde em variavel e print
+
+
+
+# def nMaior(n1, n2):
+#     if n1 == n2:
+#         return 'valores iguais'
+#     elif n1 > n2:
+#         return n1
+#     else:
+#         return n2
+
+# var = nMaior(10,20)
+# print(var)
+
+# var = nMaior(10,10)
+# print(var)
+
+# var = nMaior(25,20)
+# print(var)
+
+# crie uma funcao que recba um numero indefinido de valroes numerocos 
+# com *arg e retorne os alores ordenados de forma decrescente
+
+# def ordenarValores(*var):
+#     return sorted(var, reverse=True)
+
+# var1 = ordenarValores(1,2,9,4,8,9)
+# print(var1)    
