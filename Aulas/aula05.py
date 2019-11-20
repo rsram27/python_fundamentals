@@ -65,9 +65,10 @@ nome = 'Joao'
 
 # print(mudanome('Ana'))
 
-texto = 'Eu sou a mosca que pousou na sua sopa'
+# texto = 'Eu sou a mosca que pousou na sua sopa'
 
-def split_text(texto):
-    return texto.split('     ')
+# def split_text(texto):
+#     return texto.split('     ')
 
-print(split_text(texto))
+# print(split_text(texto))
+
