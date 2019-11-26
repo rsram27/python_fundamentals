@@ -5,6 +5,6 @@ con = engine.connect()
 
 d = delete(user_table).where(user_table.c.nome == 'Daniel')
 
-result = con.connect()
+resultado = con.connect()
 
-print(result.rowcount)
+print(resultado.rowcount())
