@@ -5,7 +5,7 @@ class BancoMongo():
 
     def __init__(self):
         try:
-            client = MongoClient('192.168.201.128")
+            client = MongoClient('192.168.201.116')
             self.db = client['chat']
         except Exception as e:
             print(f'ERRO: {e}')
@@ -16,17 +16,19 @@ class BancoMongo():
             'nome':  name,
             'mensagem': mensagem,
             'hora': time.strftime('%d-%m-%Y %H:%M:%S')
-        }
+            }
         self.db.chat.insert(date)
 
     def select(self):
-        ultimo = [x for x in self.db.chat.find().sort('_id', DESCENDING)]
+        ultimo = [x for x in self.db.chat.find().sort("_id", DESCENDING)]
         while True:
-            date = [x for x in self.db.chat.find().sort('_id', DESCENDING)]
+            date = [x for x in self.db.chat.find().sort("_id", DESCENDING)]
             if date != ultimo:
-                ultimo = date
                 print(f'[{date[0]["hora"]}] {date[0]["nome"]} : {date[0]["mensagem"]} \n')
-                time.sleep(2)
+            
+            time.sleep(2)
+    
+
 
 if __name__ == "__main__":
     obj = BancoMongo()

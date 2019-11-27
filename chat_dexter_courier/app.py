@@ -1,7 +1,8 @@
-from modules import bancos
+from modules import banco
 import threading
 
-cliente = bancos.BancoMongo()
+cliente = banco.BancoMongo()
+
 
 if __name__ == "__main__":
     user = input('Nickname: ')
